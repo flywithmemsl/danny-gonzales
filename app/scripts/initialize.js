@@ -111,7 +111,7 @@ function scrollMagicInit() {
     .addIndicators({name: "1"})
     .addTo(controller);
 
-  $('body .footer + div').css({'visibility': 'hidden'});
+  $('body .footer').nextAll().css({'visibility': 'hidden'});
 
   $('.bubbles .invis + div').css({'visibility': 'hidden'});
 
